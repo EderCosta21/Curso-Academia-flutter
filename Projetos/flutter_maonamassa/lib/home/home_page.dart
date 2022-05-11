@@ -7,7 +7,9 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('App bar'),
+        title: const Text(
+          'App bar',
+        ),
         backgroundColor: Colors.red[200],
         // ignore: prefer_const_literals_to_create_immutables
         actions: [
@@ -31,7 +33,13 @@ class Homepage extends StatelessWidget {
       endDrawer: const Drawer(
         child: Text('Drawer aberto'),
       ),
-      body: const Center(child: Text('Primeira home page')),
+      body: const Center(
+          child: Text(
+        'Primeira home page',
+        style: TextStyle(
+          fontFamily: 'RobotoCondensed',
+        ),
+      )),
     );
   }
 }
