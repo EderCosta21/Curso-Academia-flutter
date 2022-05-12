@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_maonamassa/home/home_page.dart';
-
-import 'home/widgets/container.dart';
-import 'images/images.dart';
+import 'package:flutter_maonamassa/navegacao/home_page.dart' as navegacao;
 
 void main() {
   runApp(MyApp());
@@ -18,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Homepage(),
+      home: const navegacao.HomePage(),
     );
   }
 }
