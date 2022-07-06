@@ -11,14 +11,19 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
           child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamed('/bloc');
+            },
             child:
                 Text('Bloc', style: Theme.of(context).textTheme.headlineMedium),
           ),
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamed('/cubit');
+            },
             child: Text('Cubit',
                 style: Theme.of(context).textTheme.headlineMedium),
           ),
