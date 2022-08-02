@@ -1,0 +1,27 @@
+{
+  "nome": "Eder Costa",
+  "idade": 18,
+
+  "nomeCursos": ["Academia do flutter", "imersão GetX"],
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Academia do flutter",
+      "isAluno": true
+    },
+    {
+      "id": 2,
+      "nome": "Imersão GetX",
+      "isAluno": false
+    }
+  ],
+  "telefone": {
+    "ddd": 35,
+    "numero": 36217174
+  },
+  "endereco": {
+    "rua": "rua x",
+    "numero": 123,
+    "CEP": 73500
+  }
+}
