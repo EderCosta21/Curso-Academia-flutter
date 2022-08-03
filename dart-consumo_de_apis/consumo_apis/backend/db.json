@@ -4,66 +4,33 @@
       "id": "1",
       "nome": "Eder Costa",
       "idade": 18,
-
-      "nomeCursos": ["Academia do flutter", "imersão GetX"],
+      "nomeCursos": ["Academia do flutter", "imersão GetX", "Imersão Shelf"],
       "cursos": [
-        {
-          "id": 1,
-          "nome": "Academia do flutter",
-          "isAluno": true
-        },
-        {
-          "id": 2,
-          "nome": "Imersão GetX",
-          "isAluno": false
-        }
+        { "id": 1, "nome": "Academia do flutter", "isAluno": true },
+        { "id": 2, "nome": "Imersão GetX", "isAluno": false }
       ],
-    
       "endereco": {
         "rua": "rua x",
         "numero": 123,
-        "CEP": 73500,
-        "cidade":{
-            "id":2,
-            "nome":  "itajuba"
-        },
-        "telefone": {
-            "ddd": 35,
-            "numero": 36217174
-          }
+        "cep": 0,
+        "cidade": { "id": 2, "nome": "itajuba" }
       }
     },
     {
       "id": "2",
       "nome": "Rodrigo Rahman",
       "idade": 37,
-
       "nomeCursos": ["Academia do flutter", "imersão GetX"],
       "cursos": [
-        {
-          "id": 1,
-          "nome": "Academia do flutter",
-          "isAluno": true
-        },
-        {
-          "id": 2,
-          "nome": "Imersão GetX",
-          "isAluno": true
-        }
+        { "id": 1, "nome": "Academia do flutter", "isAluno": true },
+        { "id": 2, "nome": "Imersão GetX", "isAluno": true }
       ],
-     
       "endereco": {
         "rua": "rua x",
         "numero": 123,
         "CEP": 73500,
-        "cidade":{
-            "id":1,
-            "nome":  "brasopi"
-        },
-        "telefone": {
-            "ddd": 35,
-            "numero": 36217174
-          }
+        "cidade": { "id": 1, "nome": "brasopi" },
+        "telefone": { "ddd": 35, "numero": 36217174 }
       }
     }
   ]

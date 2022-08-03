@@ -1,25 +1,29 @@
 import 'dart:convert';
 
 import 'package:consumo_apis/models/cidade.dart';
+import 'package:consumo_apis/models/telefone.dart';
 
 class Endereco {
   String rua;
   int numero;
-  String cep;
+  int cep;
   Cidade cidade;
+  Telefone telefone;
   Endereco({
     required this.rua,
     required this.numero,
     required this.cep,
     required this.cidade,
+    required this.telefone,
   });
 
   Map<String, dynamic> toMap() {
     return {
       'rua': rua,
       'numero': numero,
-      'CEP': cep,
+      'cep': cep,
       'cidade': cidade.toMap(),
+      'telefone': telefone.toMap(),
     };
   }
 
@@ -27,8 +31,9 @@ class Endereco {
     return Endereco(
       rua: map['rua'] ?? '',
       numero: map['numero']?.toInt() ?? 0,
-      cep: map['CEP'] ?? '',
+      cep: map['cep']?.toInt() ?? 0,
       cidade: Cidade.fromMap(map['cidade']),
+      telefone: Telefone.fromMap(map['telefone']),
     );
   }
 
@@ -39,6 +44,6 @@ class Endereco {
 
   @override
   String toString() {
-    return 'Endereco => rua: $rua, numero: $numero, CEP: $cep, cidade: $cidade';
+    return 'Endereco(rua: $rua, numero: $numero, cep: $cep, cidade: $cidade, telefone: $telefone)';
   }
 }
