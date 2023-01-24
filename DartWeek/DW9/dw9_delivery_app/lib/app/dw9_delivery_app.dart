@@ -1,5 +1,4 @@
 import 'package:dw9_delivery_app/app/app.dart';
-import 'package:dw9_delivery_app/app/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class Dw9DeliveryApp extends StatefulWidget {
