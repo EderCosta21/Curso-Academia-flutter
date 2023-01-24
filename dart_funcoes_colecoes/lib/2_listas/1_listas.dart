@@ -95,6 +95,7 @@ void main() {
     final idadePaciente2 = int.parse(dados2[1]);
     return idadePaciente1.compareTo(idadePaciente2);
   }));
+  print(" compareTo");
   printAcademy(listaPacientes2);
 
   // Pacientes por funcao

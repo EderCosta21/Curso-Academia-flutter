@@ -1,0 +1,33 @@
+[
+  {
+    "idApolice": "115658516",
+    "itemApolice": "000",
+    "dataInicioVigencia": "04/03/2021",
+    "dataFimVigencia": "04/03/2022",
+    "resumo": "QQQ0808 CHEVROLET TRACKER",
+    "veiculo": "CHEVROLET TRACKER",
+    "placa": "QQQ0808",
+    "idApoliceSusep": "517720211A310089682",
+    "numeroEndossoSusep": "0",
+    "ramo": {
+      "id": 1211,
+      "descricao": "Automóvel"
+    }
+  },
+
+  {
+    "idApolice": "115658527",
+    "itemApolice": "000",
+    "dataInicioVigencia": "04/03/2021",
+    "dataFimVigencia": "04/03/2022",
+    "resumo": "FTC0I50 BMW R 1200",
+    "veiculo": "BMW R 1200",
+    "placa": "FTC0I50",
+    "idApoliceSusep": "517720211A310089685",
+    "numeroEndossoSusep": "0",
+    "ramo": {
+      "id": 1212,
+      "descricao": "Moto"
+    }
+  }
+]
