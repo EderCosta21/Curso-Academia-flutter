@@ -11,13 +11,16 @@ class Dw9DeliveryApp extends StatefulWidget {
 class _Dw9DeliveryAppState extends State<Dw9DeliveryApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeConfig.theme,
-      title: 'Delivery App',
-      routes: {
-        '/': (context) => const SplashPage(),
-      },
+    return ApplicationBinding(
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeConfig.theme,
+        title: 'Delivery App',
+        routes: {
+          '/': (context) => const SplashPage(),
+          '/home': (context) => HomeRouter.page,
+        },
+      ),
     );
   }
 }
