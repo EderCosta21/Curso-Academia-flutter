@@ -48,7 +48,8 @@ class _DeliveryProductTileState extends State<DeliveryProductTile> {
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: Text(
                     widget.produto.description,
-                    style: context.textStyles.textLight.copyWith(fontSize: 12),
+                    style:
+                        context.textStyles.textRegular.copyWith(fontSize: 14),
                   ),
                 ),
                 Padding(

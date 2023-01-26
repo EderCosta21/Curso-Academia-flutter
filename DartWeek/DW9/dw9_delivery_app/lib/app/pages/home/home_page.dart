@@ -8,11 +8,19 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> with Loader, Messages {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DeliveryAppbar(),
+      floatingActionButton: FloatingActionButton(onPressed: () async {
+        // showError('deu erro');
+        showInfo('message');
+        // showSuccess('message');
+        // showLoader();
+        // await Future.delayed(Duration(seconds: 2));
+        // hideLoader();
+      }),
       body: Column(
         children: [
           Expanded(
