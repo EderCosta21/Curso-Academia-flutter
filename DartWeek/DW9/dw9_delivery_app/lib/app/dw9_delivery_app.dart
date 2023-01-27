@@ -19,6 +19,7 @@ class _Dw9DeliveryAppState extends State<Dw9DeliveryApp> {
         routes: {
           '/': (context) => const SplashPage(),
           '/home': (context) => HomeRouter.page,
+          '/productDetail': (context) => ProductDetailRouter.page,
         },
       ),
     );
